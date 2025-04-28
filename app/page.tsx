@@ -87,7 +87,7 @@ export default function Home() {
               <img
                 src="/first.jpeg"
                 alt="Samuel Esteves Gomes"
-                className="w-[125%] h-[125%] object-cover object-center transform scale-125 translate-y-[-45%]"
+                className="w-[125%] h-[125%] object-cover object-center transform scale-125 translate-y-[+25%]"
               />
             </div>
             <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl opacity-70 -z-10 group-hover:opacity-100 transition-opacity"></div>
@@ -153,7 +153,7 @@ export default function Home() {
                         <img
                           src="/second.jpeg"
                           alt="Samuel Esteves Gomes"
-                          className="w-[200%] h-[200%] object-cover object-center transform scale-[2] translate-y-[-65%]"
+                          className="w-[200%] h-[200%] object-cover object-center transform scale-[2] translate-y-[+25%]"
                         />
                       </div>
                       <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl opacity-70 -z-10"></div>
