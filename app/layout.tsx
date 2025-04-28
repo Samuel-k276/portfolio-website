@@ -10,7 +10,17 @@ export const metadata: Metadata = {
   title: "Samuel Gomes | Portfolio",
   description: "Computer Science Student at Instituto Superior Técnico",
   icons: {
-    icon: '/first.jpeg',
+    icon: {
+      url: '/first.jpeg',
+      type: 'image/jpeg',
+      sizes: '32x32',
+      href: '/first.jpeg',
+    },
+    apple: {
+      url: '/first.jpeg',
+      type: 'image/jpeg',
+      sizes: '180x180',
+    },
   },
 }
 
