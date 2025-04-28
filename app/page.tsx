@@ -219,12 +219,10 @@ export default function Home() {
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="hover:text-blue-400 transition-colors"
-                            >
-                            
-                            <div>
+                            >                            
                               <div className="font-medium">AWS Cloud Essentials</div>
                               <div className="text-xs text-gray-400">Issued January 2025</div>
-                            </div>
+                            </a>
                           </li>
                           <li className="flex items-center p-2 rounded-lg hover:bg-gray-800/30 transition-colors">
                             <div className="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-fuchsia-500 mr-3"></div>
