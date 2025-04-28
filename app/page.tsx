@@ -85,7 +85,7 @@ export default function Home() {
           <div className="relative mb-8 group">
             <div className="w-40 h-40 rounded-full overflow-hidden border-2 border-blue-500/50 transition-transform duration-300 group-hover:scale-105">
               <img
-                src="/placeholder.svg?height=160&width=160"
+                src="/first.jpeg"
                 alt="Samuel Esteves Gomes"
                 className="w-full h-full object-cover"
               />
@@ -151,7 +151,7 @@ export default function Home() {
                     <div className="relative mb-6 md:mb-0 group">
                       <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-blue-500/50 mx-auto">
                         <img
-                          src="/placeholder.svg?height=160&width=160"
+                          src="/second.jpeg"
                           alt="Samuel Esteves Gomes"
                           className="w-full h-full object-cover"
                         />
