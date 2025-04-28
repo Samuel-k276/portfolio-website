@@ -238,6 +238,12 @@ export default function Home() {
                           </li>
                           <li className="flex items-center p-2 rounded-lg hover:bg-gray-800/30 transition-colors">
                             <div className="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-fuchsia-500 mr-3"></div>
+                            <a 
+                              href="https://www.credly.com/badges/fa321b53-efd9-45fe-9a83-dd36e102e76e/linked_in_profile" 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                              className="hover:text-blue-400 transition-colors"
+                            >
                               <div className="font-medium">ISC2 Certified in Cybersecurity</div>
                               <div className="text-xs text-gray-400">Issued April 2025</div>
                             </a>
