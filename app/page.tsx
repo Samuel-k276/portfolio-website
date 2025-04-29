@@ -4,8 +4,6 @@ import type React from "react"
 
 import { useEffect, useRef, useState } from "react"
 import { ChevronDown, Download, ExternalLink, Github, Linkedin, Mail, Phone } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { cn } from "@/lib/utils"
 import { useMobile } from "@/hooks/use-mobile"
@@ -293,7 +291,9 @@ export default function Home() {
                 ]}
                 tags={["Spring Boot", "Angular", "Spring Security", "PostgreSQL", "REST"]}
                 githubLink="https://github.com/Samuel-k276/TaskFlow"
-                imageSrc="/placeholder.svg?height=300&width=600"
+                imageSrc="/taskflow.png?height=300&width=600"
+                imagePosition="top"
+                imageTransform="translate-y-[0%] scale-[1.2]"
               />
             </FadeInSection>
 
@@ -555,6 +555,8 @@ function VerticalProjectCard({
   githubLink,
   demoLink,
   imageSrc,
+  imagePosition = 'center',
+  imageTransform,
 }: {
   title: string
   description: string
@@ -563,6 +565,8 @@ function VerticalProjectCard({
   githubLink: string
   demoLink?: string
   imageSrc: string
+  imagePosition?: 'top' | 'center' | 'bottom' | string
+  imageTransform?: string
 }) {
   return (
     <div className="group">
@@ -571,7 +575,7 @@ function VerticalProjectCard({
           <img
             src={imageSrc || "/placeholder.svg"}
             alt={title}
-            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 object-${typeof imagePosition === 'string' ? imagePosition : 'center'} ${imageTransform || ''}`}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-70"></div>
           <div className="absolute bottom-0 left-0 p-6">
