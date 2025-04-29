@@ -273,7 +273,7 @@ export default function Home() {
                   "Designed for fast access to metro line status and station information",
                   "Interactive map of metro lines and stations",
                 ]}
-                tags={["React.js", "Tailwind CSS", "Real-time APIs"]}
+                tags={["React.js", "Real-time APIs"]}
                 githubLink="https://github.com/Samuel-k276/Lisbon-Metro-Tracker"
                 demoLink="https://lisbon-metro.vercel.app/"
                 imageSrc="/placeholder.svg?height=300&width=600"
