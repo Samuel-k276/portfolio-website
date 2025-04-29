@@ -305,10 +305,9 @@ export default function Home() {
                   "Built with Next.js frontend and FastAPI backend",
                   "Uses LLaMA 3.2 via Ollama for local LLM inference",
                   "Designed to answer technical questions in formal languages, automata theory and Turing machines",
-                  "Great tool for students taking Theory of Computation courses"
+                  "Good tool for students taking Theory of Computation courses"
                 ]}
                 tags={["Next.js", "FastAPI", "Python", "LLaMA 3.2", "Ollama"]}
-                githubLink="https://github.com/Samuel-k276/tc-helper"
                 imageSrc="/placeholder.svg?height=300&width=600"
               />
             </FadeInSection>
